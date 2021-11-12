@@ -56,8 +56,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "docs"
         },
         {
-          "emoji": "⚡️",
-          "code": ":zap:",
+          "emoji": "🌠️",
+          "code": ":shooting_star:",
           "description": "Improve performance",
           "name": "perf"
         },
@@ -80,8 +80,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "ui"
         },
         {
-          "emoji": "♻️",
-          "code": ":recycle:",
+          "emoji": "🌀",
+          "code": ":cyclone:",
           "description": "Refactor code",
           "name": "refactor"
         },
@@ -140,12 +140,6 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "test"
         },
         {
-          "emoji": "🧪",
-          "code": ":test_tube:",
-          "description": "Add failing test",
-          "name": "failtest"
-        },
-        {
           "emoji": "🔥",
           "code": ":fire:",
           "description": "Remove code or files",
@@ -158,14 +152,14 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "move"
         },
         {
-          "emoji": "🗃",
-          "code": ":monocle_face:",
+          "emoji": "📡",
+          "code": ":satellite:",
           "description": "Data exploration / inspection",
           "name": "data"
         },
         {
-          "emoji": "🧐",
-          "code": ":card_file_box:",
+          "emoji": "💽",
+          "code": ":computer_disk:",
           "description": "Perform database related changes",
           "name": "db"
         },
@@ -182,7 +176,7 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "business"
         },
         {
-          "emoji": "🏗",
+          "emoji": "🏗️",
           "code": ":building_construction:",
           "description": "Make architectural changes",
           "name": "arch"
@@ -206,7 +200,7 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "auth"
         },
         {
-          "emoji": "♿️",
+          "emoji": "♿",
           "code": ":wheelchair:",
           "description": "Improve accessibility",
           "name": "access"
@@ -218,8 +212,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "review"
         },
         {
-          "emoji": "⚗",
-          "code": ":alembic:",
+          "emoji": "🧪",
+          "code": ":test_tube:",
           "description": "Perform experiments",
           "name": "experiment"
         },
@@ -520,7 +514,6 @@ module.exports = {
         'prune': 'Prune & Move & Rename',
         'ui': 'UI',
         'test': 'Tests',
-        'failtest': 'Tests',
         'lint': 'Lint',
         'refactor': 'Code Refactoring',
         'config': 'Configuration',
@@ -591,14 +584,14 @@ module.exports = {
         'Bug Fixes': '🐛',
         'Styles': '🎨',
         'Documentation': '📝',
-        'Performance Improvements': '⚡️',
+        'Performance Improvements': '🌠️',
         'Chores': '🎫',
         'Build System': '🛠️',
         'Prune & Move & Rename': '🔥',
         'UI': '💄',
         'Tests': '✅',
         'Lint': '🚨',
-        'Code Refactoring': '♻️',
+        'Code Refactoring': '🌀',
         'Configuration': '🔧',
         'Internationalization & Localization': '🌐',
         'Typos': '✏️',
@@ -607,17 +600,17 @@ module.exports = {
         'BREAKING CHANGES': '💥',
         'API': '👽',
         'Move & Rename': '🚚',
-        'Data': '🗃',
-        'Database': '🧐',
+        'Data': '�',
+        'Database': '💽',
         'User experience & Usability': '🚸',
         'Business Logic': '👔',
-        'Architecture': '🏗',
+        'Architecture': '🏗️',
         'Text & Literals': '💬',
         'Assets': '🍱',
         'Authorization': '🛂',
-        'Accessibility': '♿️',
+        'Accessibility': '♿',
         'Review Changes': '👌',
-        'Experiments': '⚗',
+        'Experiments': '🧪',
         'Feature Flags': '🚩',
         'Animations': '💫',
         'Responsive Design': '📱',
