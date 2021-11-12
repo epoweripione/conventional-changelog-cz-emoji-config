@@ -1,0 +1,55 @@
+{
+  "name": "conventional-changelog-cz-emoji-config",
+  "version": "0.1.0",
+  "description": "conventional-changelog cz-emoji preset",
+  "main": "index.js",
+  "scripts": {
+    "test-windows": "mocha --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epoweripione/conventional-changelog-cz-emoji-config.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "cz-emoji",
+    "preset"
+  ],
+  "files": [
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "customConfig.js",
+    "index.js",
+    "parser-opts.js",
+    "utils.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "author": "epoweripione",
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/epoweripione/conventional-changelog-cz-emoji-config/issues"
+  },
+  "homepage": "https://github.com/epoweripione/conventional-changelog-cz-emoji-config",
+  "dependencies": {
+    "compare-func": "^2.0.0",
+    "cosmiconfig": "^7.0.0",
+    "q": "^1.5.1"
+  },
+  "devDependencies": {
+    "better-than-before": "^1.0.0",
+    "chai": "^4.3.4",
+    "conventional-changelog-core": "^4.2.4",
+    "git-dummy-commit": "^1.3.0",
+    "mocha": "^9.1.3",
+    "shelljs": "^0.8.4",
+    "through2": "^4.0.2"
+  }
+}
