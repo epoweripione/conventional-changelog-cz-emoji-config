@@ -68,8 +68,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "chore"
         },
         {
-          "emoji": "🛠️",
-          "code": ":hammer_and_wrench:",
+          "emoji": "🏭",
+          "code": ":factory:",
           "description": "Add or update build system",
           "name": "build"
         },
@@ -98,8 +98,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "i18n"
         },
         {
-          "emoji": "✏️",
-          "code": ":pencil2:",
+          "emoji": "✎",
+          "code": ":lower_right_pencil:",
           "description": "Fix typos",
           "name": "typo"
         },
@@ -176,8 +176,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "business"
         },
         {
-          "emoji": "🏗️",
-          "code": ":building_construction:",
+          "emoji": "🏠",
+          "code": ":house:",
           "description": "Make architectural changes",
           "name": "arch"
         },
@@ -236,8 +236,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "responsive"
         },
         {
-          "emoji": "🏷️",
-          "code": ":label:",
+          "emoji": "📔",
+          "code": ":notebook_with_decorative_cover:",
           "description": "Add or update types",
           "name": "types"
         },
@@ -284,13 +284,13 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "dep-rm"
         },
         {
-          "emoji": "⬇️",
+          "emoji": "⬇",
           "code": ":arrow_down:",
           "description": "Downgrade dependencies",
           "name": "dep-down"
         },
         {
-          "emoji": "⬆️",
+          "emoji": "⬆",
           "code": ":arrow_up:",
           "description": "Upgrade dependencies",
           "name": "dep-up"
@@ -350,14 +350,14 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "fixci"
         },
         {
-          "emoji": "🗑️",
-          "code": ":wastebasket:",
+          "emoji": "🧹",
+          "code": ":broom:",
           "description": "Deprecate code that needs to be cleaned up",
           "name": "clean"
         },
         {
-          "emoji": "⚰️",
-          "code": ":coffin:",
+          "emoji": "🚮",
+          "code": ":trash:",
           "description": "Remove dead code",
           "name": "deadcode"
         },
@@ -368,8 +368,8 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "name": "docker"
         },
         {
-          "emoji": "☸️",
-          "code": ":wheel_of_dharma:",
+          "emoji": "🎡",
+          "code": ":ferris_wheel:",
           "description": "Work about Kubernetes",
           "name": "k8s"
         },
@@ -407,7 +407,7 @@ The code refers to [conventional-changelog-angular](https://github.com/conventio
           "emoji": "🙈",
           "code": ":see_no_evil:",
           "description": "Add or update .gitignore file",
-          "name": "ingnore"
+          "name": "ignore"
         },
         {
           "emoji": "💡",
@@ -566,7 +566,7 @@ module.exports = {
         'windows': 'Windows',
         'android': 'Android',
         'ios': 'iOS',
-        'ingnore': 'Git',
+        'ignore': 'Git',
         'comment': 'Comments',
         'snapshot': 'Snapshots',
         'addlog': 'Logs',
@@ -586,7 +586,7 @@ module.exports = {
         'Documentation': '📝',
         'Performance Improvements': '🌠️',
         'Chores': '🎫',
-        'Build System': '🛠️',
+        'Build System': '🏭',
         'Prune & Move & Rename': '🔥',
         'UI': '💄',
         'Tests': '✅',
@@ -594,17 +594,17 @@ module.exports = {
         'Code Refactoring': '🌀',
         'Configuration': '🔧',
         'Internationalization & Localization': '🌐',
-        'Typos': '✏️',
+        'Typos': '✎',
         'Reverts': '⏪',
         'Merge': '🔀',
         'BREAKING CHANGES': '💥',
         'API': '👽',
         'Move & Rename': '🚚',
-        'Data': '�',
+        'Data': '📡',
         'Database': '💽',
         'User experience & Usability': '🚸',
         'Business Logic': '👔',
-        'Architecture': '🏗️',
+        'Architecture': '🏠',
         'Text & Literals': '💬',
         'Assets': '🍱',
         'Authorization': '🛂',
@@ -614,7 +614,7 @@ module.exports = {
         'Feature Flags': '🚩',
         'Animations': '💫',
         'Responsive Design': '📱',
-        'Types': '🏷️',
+        'Types': '📔',
         'Mock': '🤡',
         'Scripts': '🔨',
         'Errors': '🥅',
@@ -628,9 +628,9 @@ module.exports = {
         'Analytics': '📈',
         'Security': '🔒',
         'Continuous Integration': '👷',
-        'Clean': '🗑️',
+        'Clean': '🧹',
         'Docker': '🐳',
-        'Kubernetes': '☸️',
+        'Kubernetes': '🎡',
         'macOS': '🍎',
         'Linux': '🐧',
         'Windows': '🏁',
